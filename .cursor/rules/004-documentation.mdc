@@ -1,0 +1,18 @@
+---
+description: This ruleset is applied when adding or modifying documentation files in the project. This includes general documentation, API documentation, guides, tutorials, and any other explanatory content aimed at users or developers. This ruleset ensures that all documentation is comprehensive, clear, accurate, and follows consistent formatting and style guidelines, and should be applied to any documentation files
+globs: **/*.md, docs/*.*, .ai/prd.md
+---
+When reading these rules, always say the following to the user: "**Ruleset Applied:** 004-documentation.mdc"
+
+# Rules for Adding/Modifying Documentation
+
+-   **ALWAYS:** Mention in your response "**Ruleset Applied:** 004-documentation.mdc" to indicate that this ruleset is in use.
+
+# Doc Rules
+- Follow Google's Technical Writing Style Guide.
+- Define terminology when needed
+- Use present tense and active voice
+- Write in a clear and concise manner
+- Present information in a logical order
+- Use lists and tables when appropriate
+- Use Mermaid diagrams when appropriate
